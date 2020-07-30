@@ -1,0 +1,59 @@
+extra flags for compiler gcc
+
+gcc -Wall -Werror -Wextra main.c
+
+
+
+
+
+
+char is 1 bit
+int is 4 bytes = 32 bits
+float is 4 bytes = 32 bits
+double is float but 8 bytes = 64 bits
+long int 8 bytes = 64 bits
+short int 2 bytes = 16 bits
+
+
+char ccc         > ccc is one bit
+
+to find size of variable :  printf("%lun", sizeof(ccc));
+
+ccc is 1 byte even if its empty
+
+___________
+
+int main()
+{ 
+char c;
+c='k';
+
+printf("%lu %d %c\n", sizeof(c), c, c);
+prints bytesize  and value in ascii table and char-representation in ascii table
+1 107 k
+______________
+
+
+
+_____
+
+conditional operators
+== 
+!=
+>=
+<=
+>
+<
+
+
+!42 = 0
+!0 = 1
+
+! Mean different from
+
+&&  means and
+|| means or
+
+----------------
+
+C - IV Conditionnelles - 01 if, else et else if

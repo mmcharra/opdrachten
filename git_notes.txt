@@ -1,0 +1,75 @@
+git config --global user.name "Mc Moon"
+git config --global user.email "mc_moon@gmail.com"
+
+
+git init project1
+cd project1
+
+(create file1.txt)
+
+git add file1.txt
+git commit -m"My first commit message"
+
+git-checkout - Switch branches or restore working tree files
+
+git-branch - List, create, or delete branches
+
+git-merge - Join two or more development histories together
+
+merge preserves branch history 
+
+rebase does notmerge preserves branch history 
+
+rebase does notmerge preserves branch history 
+
+rebase does not , and rebase is for private branches only
+
+rebase is NOT for public branches
+
+
+
+this is like  merge:
+git checkout master
+git merge branch
+
+rebase works like this:
+git checkout branch
+git rebase master
+git checkout master
+git merge branch
+
+vogshpere::
+creates a repository and gives access to the repository.
+
+git clone vogsphere@vogsphere.42.fr:pisc-0-001/2013/par-0-1/j00/mmontinet j00
+/tmp/vogsphere/j00> GCcps00
+
+vim test.c
+...>git status
+git add test.c
+git commit -m"Createion of test.c"
+vim test.c
+
+git add test.c  [again to tell git that i interested in test.c again]
+git commit -m"Modification of line in test.c"
+git push origin master  [first push has to tell who's the master]
+
+[you keep on git pushing many times]
+
+[next time push is like this]
+git push
+
+[to check if the push worked do another -verif clone from master]
+git clone vgs:pisc-0-001/2013/par-0-1/j00/mmontinet j00-verif
+
+[you must make sure to git push everytime]
+
+kerberos ticket
+klist
+kinit <password> to get ticket
+klist again and now you have ticket, now i can clone again
+
+when you commit , it asks for your email and password. do as it says.
+
+
+

@@ -1,0 +1,10 @@
+ex01 groups | tr " "  ","
+
+ex02 
+
+ex03  count files   find . | ls | wc -l
+
+
+ex04 ifconfig -a | grep "ether *" | grep -v "media"
+
+
